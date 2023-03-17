@@ -3,4 +3,10 @@ languageCode = 'zh-tw'
 title = 'My New Hugo Site'
 theme = "PaperMod"
 
-
+[menu]
+  [[menu.main]]
+    identifier = "post"
+    url = "/content/post/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
